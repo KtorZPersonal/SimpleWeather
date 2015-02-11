@@ -1,0 +1,34 @@
+<Alloy>
+  <Window class="container">
+      <View class="details">
+        <Label id="title"></Label>
+        <Label id="date"></Label>
+        <ImageView class="icon" id="currentIcon"></ImageView>
+        <Label id="conditions"></Label>
+      </View>
+      <View class="forecast">
+      	<View class="after" id="after1">
+      		<Label class="day"></Label>
+      		<Label class="temp"></Label>
+      		<ImageView class="icon"></ImageView>
+      		<Label class="description"></Label>
+      	</View>
+      	<View class="after" id="after2">
+      		<Label class="day"></Label>
+      		<Label class="temp"></Label>
+      		<ImageView class="icon"></ImageView>
+      		<Label class="description"></Label>
+      	</View>
+      	<View class="after" id="after3">
+      		<Label class="day"></Label>
+      		<Label class="temp"></Label>
+      		<ImageView class="icon"></ImageView>
+      		<Label class="description"></Label>
+      	</View>
+      </View>
+      <View class="updateLocation">
+        <TextField id="address" hintText="Enter an address..."></TextField>
+        <Button id="updateLocation" title="What's The Weather ?" onClick="updateLocation"/>
+      </View>
+  </Window>
+</Alloy>
